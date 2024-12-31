@@ -5,6 +5,7 @@ body {
     font-weight: weight;
     font-style: normal;
     background-color: #000;
+    background-image: url(../public/img/vetores\ background.png);
     color: #fff;
 }
 
@@ -250,7 +251,6 @@ header .download-cv {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
-    display: ;
 }
 
 .video-item {
@@ -318,5 +318,11 @@ footer i {
         width: 50%;
         height: auto;
         margin-left: 95px;
+    }
+
+    body{
+        background-image: url(../public/img/vetores\ background.png);
+        background-position: cover;
+        background-position: center;
     }
 }
